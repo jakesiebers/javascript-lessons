@@ -1,7 +1,6 @@
 
-// Function vs Arrow function
+// context
 
-// see closure
 const printContextExample = () => {
 
   function printContext(){

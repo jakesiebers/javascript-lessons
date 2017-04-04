@@ -1,13 +1,15 @@
 
 const / var / let
 
+Arrow Function
+
 references
 
 New and the prototype chain
 
 Scope/Closure
 
-Function vs Arrow function
+Context (this and arguments)
 
 Promises
 
