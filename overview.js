@@ -16,6 +16,7 @@ recursion
 
 
 ES6 (2015)
+All available in Node v6.9.4
 -------------------------------
 
 const / var / let
@@ -43,7 +44,7 @@ ES6 Classes
 Generators
 
 
-Es7 (available through babel)
+ES7 (available through babel)
 ---------------------------
 
 import
