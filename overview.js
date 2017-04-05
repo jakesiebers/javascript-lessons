@@ -1,7 +1,6 @@
 
-const / var / let
-
-Arrow Function
+Concepts
+-------------------------------
 
 references
 
@@ -9,22 +8,44 @@ New and the prototype chain
 
 Scope/Closure
 
-Context (this and arguments)
-
-Promises
+Currying
 
 map / reduce / filter
 
-ES6 Classes
 
-Currying
+ES6 (2015)
+-------------------------------
 
-Destructuring Bind / Default Parameter
+const / var / let
+
+Arrow Function
 
 Template Literals
 
 computed keys
 
+shorthand properties
+
+Context (this and arguments)
+
+Promises
+
+ES6 Classes
+
+Destructuring Bind / Default Parameter
+
 forof
 
 Generators
+
+
+Es7 (available through babel)
+---------------------------
+
+import
+
+spread operator
+
+rest parameter
+
+async
