@@ -32,13 +32,13 @@ Destructuring Bind
 
 Default Parameter
 
+forof
+
 Context (this and arguments)
 
 Promises
 
 ES6 Classes
-
-forof
 
 Generators
 
