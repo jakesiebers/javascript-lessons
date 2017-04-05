@@ -2,15 +2,15 @@
 Concepts
 -------------------------------
 
-references
-
-New and the prototype chain
-
 Scope/Closure
 
 Currying
 
 map / reduce / filter
+
+references
+
+New and the prototype chain
 
 
 ES6 (2015)
