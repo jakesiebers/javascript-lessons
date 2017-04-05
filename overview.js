@@ -12,6 +12,8 @@ references
 
 New and the prototype chain
 
+recursion
+
 
 ES6 (2015)
 -------------------------------
