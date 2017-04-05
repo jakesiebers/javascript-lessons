@@ -23,7 +23,8 @@ Destructuring Bind / Default Parameter
 
 Template Literals
 
+computed keys
 
----------------------------------------------------------------
+forof
 
 Generators
