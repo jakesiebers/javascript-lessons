@@ -6,11 +6,11 @@ Scope/Closure
 
 Currying
 
+New and the prototype chain
+
 map / reduce / filter
 
 references
-
-New and the prototype chain
 
 recursion
 

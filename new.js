@@ -2,7 +2,9 @@
 // New and the prototype chain
 
 const fakeNew = (constructorFunction, args) => {
-  const result = {  __proto__ : constructorFunction.prototype };
+  const result = {
+    __proto__ : constructorFunction.prototype
+  };
   constructorFunction.apply(result, args);
   return result;
 }

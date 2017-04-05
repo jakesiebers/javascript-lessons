@@ -1,4 +1,4 @@
 
 // Destructuring bind
 
-const getZoneIdFromAWSResponse = ({HostedZones:[zone]}) => zone.Id;
+const getZoneIdFromAWSResponse = ({ HostedZones: [ zone ] }) => zone.Id;

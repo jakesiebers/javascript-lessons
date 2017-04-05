@@ -14,14 +14,14 @@ const getEvent = eventId => {
     if (err) p.reject(err);
     else p.resolve(data);
   });
-  return p;
+  return p.promise;
 };
 
 // see currying
 const getWithRetry = getter => function(){
   const request = () => getter.apply(null, arguments);
   return request()
-    .fail(err => {
+    .catch(err => {
       if (err.isRetryable) return request();
       throw err;
     });
@@ -29,4 +29,17 @@ const getWithRetry = getter => function(){
 
 // see destructuring bind
 const getEventName = eventId => getWithRetry(getEvent)(eventId)
-  .then(({ name }) => name);
+  .then(
+    ({ name }) => name
+  );
+
+
+Promise.all([
+  getEvent(a),
+  getEvent(b)
+]).then(([a, b]) => a.size+b.size);
+
+Promise.race([
+  getEvent(a),
+  getEvent(b)
+])
