@@ -26,13 +26,15 @@ computed keys
 
 shorthand properties
 
+Destructuring Bind
+
+Default Parameter
+
 Context (this and arguments)
 
 Promises
 
 ES6 Classes
-
-Destructuring Bind / Default Parameter
 
 forof
 
