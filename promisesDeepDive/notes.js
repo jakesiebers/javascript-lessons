@@ -26,6 +26,8 @@ returning thened promises
 
 failing to return a promise
 
+always return a promise, never pass one as an argument (unless the function is a promise combinator)
+
 keeping variables in scope
 
 multiple thens on the same promise
